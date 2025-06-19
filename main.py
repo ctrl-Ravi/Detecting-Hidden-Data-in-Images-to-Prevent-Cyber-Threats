@@ -7,7 +7,7 @@ def main():
 
 
 
-    found = decode_lsb(image_path)
+    found, _ = decode_lsb(image_path)
 
     print("\n🧾 RESULT:")
     if found:

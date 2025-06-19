@@ -1,22 +1,5 @@
 from PIL import Image, ExifTags
 
-# def extract_metadata(image_path):
-#     print("📌 Extracting Metadata...")
-#     try:
-#         image = Image.open(image_path)
-#         exif_data = image._getexif()
-
-#         if exif_data:
-#             print("\n🗂️ Metadata Found:")
-#             for tag_id, value in exif_data.items():
-#                 tag = ExifTags.TAGS.get(tag_id, tag_id)
-#                 print(f"  {tag}: {value}")
-#         else:
-#             print("⚠️ No metadata found.")
-#     except Exception as e:
-#         print(f"❌ Error reading metadata: {e}")
-
-
 def decode_lsb(image_path):
     print("\n🔍 Checking for Steganography...")
     try:
